@@ -1,6 +1,6 @@
 # Desafios-Frontend-Mentor
 
-## Este repositorio es dedicado exclusivamente para todos los desafios de la pagina "Frontend Mentor"
+### Este repositorio es dedicado exclusivamente para todos los desafios de la pagina "Frontend Mentor"
 
 ### Perfil de Frontend Mentor (@AnderCMD) - [https://www.frontendmentor.io/profile/AnderCMD]
 
