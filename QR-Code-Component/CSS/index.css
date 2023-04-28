@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Outfit', 'Poppins', sans-serif;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+    height: 100vh;
+    display: flex;
+}
+
+.Container {
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px 20px;
+    margin: auto;
+    width: min-content;
+    text-align: center;
+}
+
+.QR-Image img{
+    border-radius: 15px;
+    width: 300px;
+}
+
+.QR-Description p{
+    font-size: 13pt;
+    color: hsl(220, 15%, 55%);
+}
+
+.Attribution { 
+    font-size: 12pt;
+}
+
+.Attribution a { 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+}
