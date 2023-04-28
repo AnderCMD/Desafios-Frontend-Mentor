@@ -8,34 +8,30 @@
 
 body{
     background-color: hsl(212, 45%, 89%);
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.Container {
+main {
     background-color: white;
-    border-radius: 25px;
-    padding: 20px 20px;
-    margin: auto;
-    width: min-content;
+    border-radius: 1em;
+    padding: 1.25em;
     text-align: center;
+    width: min-content;
 }
 
 .QR-Image img{
-    border-radius: 15px;
-    width: 300px;
+    border-radius: 1em;
+    width: 20em;
+}
+
+.QR-Title {
+    font-size: .8rem;
 }
 
 .QR-Description p{
-    font-size: 13pt;
+    font-size: 1.2rem;
     color: hsl(220, 15%, 55%);
-}
-
-.Attribution { 
-    font-size: 12pt;
-}
-
-.Attribution a { 
-    color: hsl(228, 45%, 44%); 
-    text-decoration: none;
 }
