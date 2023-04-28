@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "QR-Code-Component",
+			"path": "QR-Code-Component"
+		},
+		{
+			"name": "Results-Summary-Component-Main",
+			"path": "Results-Summary-Component-Main"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Results-Summary-Component-Main"
+	}
+}

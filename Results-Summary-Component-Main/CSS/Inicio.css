@@ -1,0 +1,209 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+/* Variable */
+:root {
+    /* Primary */
+    --Light-red: hsl(0, 100%, 67%);
+    --Orangey-yellow: hsl(39, 100%, 56%);
+    --Green-teal: hsl(166, 100%, 37%);
+    --Cobalt-blue: hsl(234, 85%, 45%);
+
+    /* Primary */
+    --Light-red-TSP: hsl(0, 100%, 67%, 10%);
+    --Orangey-yellow-TSP: hsl(39, 100%, 56%, 10%);
+    --Green-teal-TSP: hsl(166, 100%, 37%, 10%);
+    --Cobalt-blue-TSP: hsl(234, 85%, 45%, 10%);
+    
+    /* Gradients */
+    --Light-slate-blue: hsl(252, 100%, 67%); /* Background */
+    --Light-royal-blue: hsl(241, 81%, 54%);
+    
+    --Violet-blue: hsla(256, 72%, 46%, 1); /* Circulo */
+    --Persian-blue: hsla(241, 72%, 46%, 0);
+    
+    /* Neutral */
+    --White: hsl(0, 0%, 100%);
+    --Pale-blue: hsl(221, 100%, 96%);
+    --Light-lavender: hsl(241, 100%, 89%);
+    --Dark-gray-blue: hsl(224, 30%, 27%);
+    --Dark-gray-blue-Hov: hsl(226, 31%, 16%);
+    }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--Pale-blue);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.Container-General {
+    background-color: var(--White);
+    width: 45%;
+    height: 60%;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Container-Results {
+    background: linear-gradient(var(--Light-slate-blue), var(--Light-royal-blue));
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.Container-Results h1 {
+    color: var(--Light-lavender);
+    font-size: 1.6rem;
+}
+
+.Circle {
+    background: linear-gradient(var(--Violet-blue), var(--Persian-blue));
+    width: 15em;
+    height: 15em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--White);
+}
+
+.Circle h2{
+    font-size: 4rem;
+}
+
+.Circle p {
+    color: var(--Light-lavender);
+}
+
+.More-Info {
+    color: var(--White);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 65%;
+}
+
+.More-Info h2 {
+    font-size: 1.8rem;
+}
+
+.More-Info p {
+    color: var(--Light-lavender);
+}
+
+.Container-Summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    margin: 1em 2em;
+}
+
+.Container-Summary h1 {
+    font-size: 1.8rem;
+    color: var(--Dark-gray-blue);
+}
+
+.Container-Types {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.Container-Type {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    margin: .5em 0;
+    border-radius: 1em;
+}
+
+.Container-Type .Title {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.Container-Type .Title b{
+    margin-left: 1em;
+}
+
+.Summary {
+    display: flex;
+    align-items: center;
+}
+
+.Summary span {
+    color: var(--Dark-gray-blue);
+}
+
+.Reaction {
+    background-color: var(--Light-red-TSP);
+}
+
+.Memory {
+    background-color: var(--Orangey-yellow-TSP);
+}
+
+.Verbal {
+    background-color: var(--Green-teal-TSP);
+}
+
+.Visual {
+    background-color: var(--Cobalt-blue-TSP);
+}
+
+.Reaction b {
+    color: var(--Light-red);
+}
+
+.Memory b {
+    color: var(--Orangey-yellow);
+}
+
+.Verbal b {
+    color: var(--Green-teal);
+}
+
+.Visual b {
+    color: var(--Cobalt-blue);
+}
+
+.Button button {
+    border: none;
+    padding: 1.25em;
+    width: 100%;
+    border-radius: 5em;
+    background-color: var(--Dark-gray-blue);
+    color: white;
+    font-size: 1rem;
+}
+
+.Button button:hover {
+    background-color: var(--Dark-gray-blue-Hov);
+    transition: 0.8s;
+}
+
+
+
