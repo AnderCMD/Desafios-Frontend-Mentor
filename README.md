@@ -7,4 +7,5 @@
 
 ### Desafios completados:
 
--  **[QR-Code-Component](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/QR-Code-Component "QR-Code-Component")** - **Completado en la fecha de:** 2023-04-28
+-  **[QR-Code-Component](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/QR-Code-Component "QR-Code-Component")** - **Completado en la fecha de:** 28-04-2023
+-  **[Results-Summary-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Results-Summary-Component-Main "Results-Summary-Component-Main")** - **Completado en la fecha de:** 02-05-2023
