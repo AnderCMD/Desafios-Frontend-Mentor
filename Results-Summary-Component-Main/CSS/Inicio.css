@@ -39,7 +39,6 @@
 
 body {
     background-color: var(--Pale-blue);
-    width: 100vw;
     min-height: 100vh;
     display: flex;
     align-items: center;
