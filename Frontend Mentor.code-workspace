@@ -1,6 +1,10 @@
 {
 	"folders": [
 		{
+			"name": "Desafios-Frontend-Mentor",
+			"path": "."
+		},
+		{
 			"name": "QR-Code-Component",
 			"path": "QR-Code-Component"
 		},
