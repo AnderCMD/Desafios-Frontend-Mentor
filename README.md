@@ -12,8 +12,8 @@ _La ultima actualizacion fue realizada el dia_ **08/05/2023**
 ## Repositorios 📦
 
 - **[QR-Code-Component](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/QR-Code-Component) |**  Completado el día: **28-04-2023**
-  
-- **[Results-Summary-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Results-Summary-Component-Main) |**  Completado el día: **28-04-2023**
+
+- **[Results-Summary-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Results-Summary-Component-Main) |**  Completado el día: **03-05-2023**
 
 ## Visita los desafios ✈️
 
