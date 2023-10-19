@@ -15,11 +15,15 @@ _La ultima actualizacion fue realizada el dia_ **08/05/2023**
 
 - **[Results-Summary-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Results-Summary-Component-Main) |**  Completado el día: **03-05-2023**
 
+- **[Product-Preview-Card-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Product-Preview-Card-Component-Main) |** Completado el día: *19-10-2023*
+
 ## Visita los desafios ✈️
 
 - Desafio completado ✅ **| _QR-Code-Component_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/QR-Code-Component/)**
 
 - Desafio completado ✅ **| _Results-Summary-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Results-Summary-Component-Main/)**
+
+- Desafio completado ✅ **| _Product-Preview-Card-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Product-Preview-Card-Component-Main/)**
 
 ## Construido con 🛠️
 
