@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+@import url('https://cdn-uicons.flaticon.com/uicons-solid-rounded/css/uicons-solid-rounded.css');
+/* Variables */
+:root {
+    --DarkCyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+    --VeryDarkBlue: hsl(212, 21%, 14%);
+    --DarkGrayishBlue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--Cream);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    margin: 2.5em;
+    min-height: 100vh;
+}
+
+.Contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 1em;
+    justify-content: center;
+    background-color: var(--White);
+    border-radius: 1em;
+    width: 40%;
+}
+
+.Contenedor figure {
+    border-radius: 1em;
+    height: 100%;
+}
+
+.Contenedor figure img {
+    border-radius: 1em;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.Contenedor article {
+    padding: 2em;
+    display: grid;
+    gap: 2em;
+    height: 100%;
+}
+
+.Contenedor .Category {
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    font-size: .75em;
+    color: var(--DarkGrayishBlue);
+}
+
+.Contenedor .Product {
+    font-family: 'Fraunces', serif;
+    font-size: 1.8em;
+}
+
+.Contenedor .Description {
+    color: var(--DarkGrayishBlue);
+    font-size: 1.1em;
+    line-height: 1.5em;
+}
+
+.Contenedor article .Price {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+}
+
+.Contenedor article .Price-Actually {
+    color: var(--DarkCyan);
+    font-size: 2.5em;
+    font-family: 'Fraunces', serif;
+}
+
+.Contenedor article .Price-After {
+    text-decoration: line-through;
+    color: var(--DarkGrayishBlue);
+}
+
+.Contenedor .Button button {
+    padding: 1.10em 1em;
+    width: 100%;
+    border-radius: 1em;
+    background-color: var(--DarkCyan);
+    color: var(--White);
+    font-weight: 600;
+    border: none;
+    font-size: 1.1em;
+}
+
+.Contenedor .Button button:hover {
+    background-color: var(--VeryDarkBlue);
+    transition: 0.8s ease-in-out;
+}
+
+@media (max-width: 1400px) {
+    .Contenedor {
+        width: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    body {
+        margin: 1em;
+    }
+
+    .Contenedor {
+        grid-template-columns: 1fr;
+        width: 100%;
+        font-size: 0.8em;
+    }
+
+    .Contenedor figure {
+        height: 25em;
+    }
+
+    .Contenedor figure img {
+        object-fit: cover;
+        object-position: center center;
+    }
+}

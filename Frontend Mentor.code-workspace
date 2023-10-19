@@ -1,19 +1,18 @@
 {
 	"folders": [
 		{
-			"name": "Desafios-Frontend-Mentor",
-			"path": "."
-		},
-		{
 			"name": "QR-Code-Component",
 			"path": "QR-Code-Component"
 		},
 		{
 			"name": "Results-Summary-Component-Main",
 			"path": "Results-Summary-Component-Main"
+		},
+		{
+			"path": "Product-Preview-Card-Component-Main"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Results-Summary-Component-Main"
+		"liveServer.settings.multiRootWorkspaceName": "Product-Preview-Card-Component-Main"
 	}
 }
