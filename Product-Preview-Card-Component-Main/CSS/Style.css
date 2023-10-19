@@ -21,11 +21,11 @@ body {
     align-items: center;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    margin: 2.5em;
     min-height: 100vh;
 }
 
 .Contenedor {
+    margin: 2.5em;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
