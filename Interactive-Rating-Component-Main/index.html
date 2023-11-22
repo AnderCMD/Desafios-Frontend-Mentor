@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Titulo & Icono -->
+        <title>Frontend Mentor | Interactive Rating Component</title>
+        <link rel="shortcut icon" href="./Images/favicon-32x32.png" type="image/x-icon">
+        <!-- CSS -->
+        <link rel="stylesheet" href="./CSS/Inicio.css">
+    </head>
+    <body>
+        <main>
+            <div class="Container">
+                <div class="Estrella">
+                    <img src="./Images/icon-star.svg" alt="Star">
+                </div>
+                <div class="Title">
+                    <h1>How did we do?</h1>
+                </div>
+                <div class="Description">
+                    <p>
+                        Please let us know how we did with your support request.
+                        All feedback is aprreciated to help us improve our offering!
+                    </p>
+                </div>
+                <div class="Rate">
+                    <button onclick="Rate(1)" id="Rate1">1</button>
+                    <button onclick="Rate(2)" id="Rate2">2</button>
+                    <button onclick="Rate(3)" id="Rate3">3</button>
+                    <button onclick="Rate(4)" id="Rate4">4</button>
+                    <button onclick="Rate(5)" id="Rate5">5</button>
+                </div>
+                <div class="Submit-Button">
+                    <button onclick="Enviar()" type="submit">Submit</button>
+                </div>
+            </div>
+        </main>
+        <!-- JavaScript -->
+        <script src="./JavaScript/Rate.js"></script>
+    </body>
+</html>

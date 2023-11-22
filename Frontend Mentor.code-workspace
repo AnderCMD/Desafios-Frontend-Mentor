@@ -10,9 +10,12 @@
 		},
 		{
 			"path": "Product-Preview-Card-Component-Main"
+		},
+		{
+			"path": "Interactive-Rating-Component-Main"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Product-Preview-Card-Component-Main"
+		"liveServer.settings.multiRootWorkspaceName": "Interactive-Rating-Component-Main"
 	}
 }

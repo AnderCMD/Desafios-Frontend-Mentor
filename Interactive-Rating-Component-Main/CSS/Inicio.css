@@ -1,0 +1,160 @@
+/* Fuente Overpass */
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* Variables de Colores */
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --Light-Grey: hsl(217, 12%, 63%);
+    --Medium-Grey: hsl(216, 12%, 54%, 0.25);
+    --Dark-Blue: hsl(213, 19%, 18%);
+    --Very-Dark-Blue: hsl(216, 12%, 8%);
+}
+
+/* Todos los estilos */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Otros estilos */
+main {
+    min-height: 100vh;
+    background-color: var(--Very-Dark-Blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container {
+    background-color: var(--Dark-Blue);
+    width: 25vw;
+    height: 50vh;
+    display: flex;
+    border-radius: 3em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 2em;
+    gap: 1em;
+}
+
+.Container .Estrella {
+    background-color: var(--Medium-Grey);
+    padding: .75em;
+    border-radius: 50%;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container .Estrella svg {
+    color: var(--Orange);
+    width: 1.75em;
+}
+
+.Container .Title h1 {
+    color: var(--White);
+    font-weight: 700;
+    font-size: 2em;
+}
+
+.Container .Description p {
+    color: var(--Light-Grey);
+    font-size: 1.25em;
+}
+
+.Container .Rate {
+    display: flex;
+    gap: 1em;
+    margin: 1em;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container .Rate button {
+    border: none;
+    padding: 1.75em;
+    width: 1em;
+    height: 1em;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.25em;
+    color: var(--Light-Grey);
+    background-color: var(--Medium-Grey);
+    transition: ease-in-out 0.8s;
+    font-weight: 700;
+}
+
+.Container .Rate button:hover {
+    background-color: var(--Light-Grey);
+    color: var(--White);
+    transition: ease-in-out 0.8s;
+    border: none;
+}
+
+.RateActivo {
+    background-color: var(--Orange) !important;
+    color: var(--White) !important;
+}
+
+.Container .Submit-Button button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container .Submit-Button button {
+    width: 100%;
+    padding: 0.75em 1em;
+    border-radius: 5em;
+    border: none;
+    background-color: var(--Orange);
+    color: var(--White);
+    font-size: 1.25em;
+    letter-spacing: .25em;
+    transition: ease-in-out 0.8s;
+    text-transform: uppercase;
+}
+
+.Container .Submit-Button button:hover {
+    transition: ease-in-out 0.8s;
+    background-color: var(--White);
+    color: var(--Orange);
+}
+
+/* Thanks.html */
+
+.Rate-Obtain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--Medium-Grey);
+    padding: .50em 1em;
+    border-radius: 1em;
+}
+
+.Rate-Obtain h2 {
+    font-weight: 400;
+    font-size: 1.25em;
+    color: var(--Orange);
+}
+
+@media (max-width: 1440px) {
+    .Container {
+        width: 100%;
+        height: 100%;
+    }
+}
