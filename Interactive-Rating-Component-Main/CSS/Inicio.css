@@ -17,7 +17,6 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Overpass', sans-serif;
-    font-size: 15px;
 }
 
 button {
@@ -35,8 +34,8 @@ main {
 
 .Container {
     background-color: var(--Dark-Blue);
-    width: 25vw;
-    height: 50vh;
+    max-width: 25%;
+    height: 100%;
     display: flex;
     border-radius: 3em;
     padding: 3em;
@@ -75,8 +74,7 @@ main {
 
 .Container .Rate {
     display: flex;
-    gap: 1em;
-    margin: 1em;
+    gap: .5em;
     align-items: center;
     justify-content: center;
 }
@@ -152,9 +150,42 @@ main {
     color: var(--Orange);
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1536px) {
     .Container {
-        width: 100%;
-        height: 100%;
+        max-width: 30%;
+        font-size: 0.9em;
+    }
+
+    .Container .Rate {
+        font-size: 0.9em;
+    }
+    
+}
+
+@media (max-width: 1280px) {
+    .Container {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Container {
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 425px) {
+    .Container {
+        max-width: 90%;
+    }
+
+    .Container .Rate {
+        font-size: 0.7em;
     }
 }
