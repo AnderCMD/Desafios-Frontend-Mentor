@@ -25,111 +25,156 @@ body {
 }
 
 .Contenedor {
-    margin: 2.5em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    gap: 1em;
-    justify-content: center;
     background-color: var(--White);
     border-radius: 1em;
-    width: 40%;
+    width: 35%;
+    height: 55vh;
+    display: flex;
+
 }
 
-.Contenedor figure {
-    border-radius: 1em;
+article.Image {
+    width: 50%;
+}
+
+article.Image img {
     height: 100%;
-}
-
-.Contenedor figure img {
-    border-radius: 1em;
     width: 100%;
-    height: 100%;
-    object-fit: fill;
+    border-radius: 1em 0 0 1em;
+    object-fit: cover;
 }
 
-.Contenedor article {
+article.Description {
+    width: 50%;
     padding: 2em;
-    display: grid;
-    gap: 2em;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
 }
 
-.Contenedor .Category {
+article.Description .Category {
+    color: var(--DarkGrayishBlue);
+    font-size: 0.6em;
+    font-weight: 500;
+    letter-spacing: 0.6em;
     text-transform: uppercase;
-    letter-spacing: .5em;
-    font-size: .75em;
-    color: var(--DarkGrayishBlue);
 }
 
-.Contenedor .Product {
+article.Description .Product {
+    color: var(--VeryDarkBlue);
+    font-size: 1.5em;
+    font-weight: 700;
+    margin: 0em 0.5em;
     font-family: 'Fraunces', serif;
-    font-size: 1.8em;
 }
 
-.Contenedor .Description {
+article.Description .Description {
     color: var(--DarkGrayishBlue);
-    font-size: 1.1em;
+    font-size: 1em;
+    font-weight: 500;
     line-height: 1.5em;
 }
 
-.Contenedor article .Price {
+article.Description .Price {
     display: flex;
-    gap: 2em;
     align-items: center;
-}
-
-.Contenedor article .Price-Actually {
-    color: var(--DarkCyan);
-    font-size: 2.5em;
+    gap: 1em;
     font-family: 'Fraunces', serif;
 }
 
-.Contenedor article .Price-After {
-    text-decoration: line-through;
-    color: var(--DarkGrayishBlue);
+article.Description .Price .Price-Actually {
+    color: var(--DarkCyan);
+    font-size: 2em;
+    font-weight: 700;
 }
 
-.Contenedor .Button button {
-    padding: 1.10em 1em;
-    width: 100%;
-    border-radius: 1em;
+article.Description .Price .Price-After {
+    color: var(--DarkGrayishBlue);
+    font-size: 1em;
+    font-weight: 500;
+    text-decoration: line-through;
+    margin: 0em 0.5em;
+}
+
+article.Description .Button button {
     background-color: var(--DarkCyan);
     color: var(--White);
-    font-weight: 600;
+    font-size: 1em;
+    font-weight: 700;
     border: none;
-    font-size: 1.1em;
+    border-radius: 0.5em;
+    padding: 1em 2em;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
 }
 
-.Contenedor .Button button:hover {
+article.Description .Button button:hover {
     background-color: var(--VeryDarkBlue);
-    transition: 0.8s ease-in-out;
 }
 
-@media (max-width: 1400px) {
+article.Description .Button button:active {
+    transform: scale(0.9);
+}
+
+@media screen and (max-width: 1723px) {
+    .Contenedor {
+        width: 60%;
+    }
+
+    article.Description .Description {
+        font-size: 1.2em;
+    }
+}
+
+@media screen and (max-width: 1024px) {
     .Contenedor {
         width: 75%;
     }
+
+    article.Description .Description {
+        font-size: 1em;
+    }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
+    .Contenedor {
+        width: 85%;
+    }
+}
 
-    body {
+@media screen and (max-width: 640px) {
+    .Contenedor {
+        width: 90%;
+        height: 95vh;
+        flex-direction: column;
         margin: 1em;
     }
 
-    .Contenedor {
-        grid-template-columns: 1fr;
+    article.Image {
         width: 100%;
-        font-size: 0.8em;
+        height: 50%;
     }
 
-    .Contenedor figure {
-        height: 25em;
+    article.Image img {
+        border-radius: 1em 1em 0 0;
     }
 
-    .Contenedor figure img {
-        object-fit: cover;
-        object-position: center center;
+    article.Description {
+        width: 100%;
+        height: 50%;
+        gap: 1em;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .Contenedor {
+        height: auto;
+    }
+
+    article.Description .Price {
+        flex-direction: column-reverse;
+        align-items: flex-start;
     }
 }
