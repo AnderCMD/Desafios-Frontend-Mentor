@@ -13,9 +13,12 @@
 		},
 		{
 			"path": "Interactive-Rating-Component-Main"
+		},
+		{
+			"path": "Social-Links-Profile-Main"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "Interactive-Rating-Component-Main"
+		"liveServer.settings.multiRootWorkspaceName": "Social-Links-Profile-Main"
 	}
 }

@@ -1,0 +1,130 @@
+/* Colores */
+:root {
+    --Green: hsl(75, 94%, 57%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --Dark-Grey: hsl(0, 0%, 12%);
+    --Off-Black: hsl(0, 0%, 8%);
+}
+
+/* Fuentes */
+/* Fuentes */
+@font-face {
+    font-family: 'Inter';
+    src: url("/Assets/Fonts/Static/Inter-Regular.ttf");
+    font-weight: 400; /* Regular */
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("/Assets/Fonts/Static/Inter-SemiBold.ttf");
+    font-weight: 600; /* SemiBold */
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url("/Assets/Fonts/Static/Inter-Bold.ttf");
+    font-weight: 700; /* Bold */
+}
+
+/* General */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: var(--White);
+}
+
+body {
+    background-color: var(--Off-Black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+    background-color: var(--Dark-Grey);
+    padding: 2em;
+    gap: 2em;
+    border-radius: 1em;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    gap: 1em;
+    width: 100%;
+}
+
+/* Section User */
+figure img {
+    border-radius: 100%;
+    width: 5em;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 600;
+}
+
+header p {
+    font-size: 0.9em;
+    color: var(--Green);
+}
+
+p {
+    font-size: 0.9em;
+    font-weight: 400;
+}
+
+/* Section Links */
+nav {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+a {
+    background-color: var(--Grey);
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    border-radius: 0.5em;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+a:hover {
+    background-color: var(--Green);
+    color: var(--Off-Black);
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+    main {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 90%;
+    }
+}
