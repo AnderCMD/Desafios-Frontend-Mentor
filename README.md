@@ -15,6 +15,7 @@ _La ultima actualizacion fue realizada el dia_ **15-12-2023**
 - **[Results-Summary-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Results-Summary-Component-Main) |**  Completado el día: **03-05-2023**
 - **[Product-Preview-Card-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Product-Preview-Card-Component-Main) |** Completado el día: **19-10-2023**
 - **[Interactive-Rating-Component-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Interactive-Rating-Component-Main) |** Completado el día: **15-12-2023**
+- **[Social-Links-Profile-Main](https://github.com/AnderCMD/Desafios-Frontend-Mentor/tree/main/Social-Links-Profile-Main) |** Completado el dia: **08-05-2024**
 
 ## Visita los desafios ✈️
 
@@ -22,6 +23,7 @@ _La ultima actualizacion fue realizada el dia_ **15-12-2023**
 - Desafio completado ✅ **| _Results-Summary-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Results-Summary-Component-Main/)**
 - Desafio completado ✅ **| _Product-Preview-Card-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Product-Preview-Card-Component-Main/)**
 - Desafio completado ✅ **| _Interactive-Rating-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Interactive-Rating-Component-Main)**
+- Desafio completado ✅ **| _Social-Links-Profile-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Social-Links-Profile-Main)**
 
 ## Construido con 🛠️
 
