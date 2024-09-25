@@ -19,11 +19,11 @@ _La ultima actualizacion fue realizada el dia_ **15-12-2023**
 
 ## Visita los desafios ✈️
 
-- Desafio completado ✅ **| _QR-Code-Component_ | [Web Preview](https://frontendmentor.andercmd.dev/QR-Code-Component/)**
-- Desafio completado ✅ **| _Results-Summary-Component-Main_ | [Web Preview](https://frontendmentor.andercmd.dev//Results-Summary-Component-Main/)**
-- Desafio completado ✅ **| _Product-Preview-Card-Component-Main_ | [Web Preview](https://frontendmentor.andercmd.dev//Product-Preview-Card-Component-Main/)**
-- Desafio completado ✅ **| _Interactive-Rating-Component-Main_ | [Web Preview](https://frontendmentor.andercmd.dev/Interactive-Rating-Component-Main)**
-- Desafio completado ✅ **| _Social-Links-Profile-Main_ | [Web Preview](https://frontendmentor.andercmd.dev//Social-Links-Profile-Main)**
+- Desafio completado ✅ **| _QR-Code-Component_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/QR-Code-Component/)**
+- Desafio completado ✅ **| _Results-Summary-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Results-Summary-Component-Main/)**
+- Desafio completado ✅ **| _Product-Preview-Card-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Product-Preview-Card-Component-Main/)**
+- Desafio completado ✅ **| _Interactive-Rating-Component-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Interactive-Rating-Component-Main)**
+- Desafio completado ✅ **| _Social-Links-Profile-Main_ | [Web Preview](https://andercmd.github.io/Desafios-Frontend-Mentor/Social-Links-Profile-Main)**
 
 ## Construido con 🛠️
 
