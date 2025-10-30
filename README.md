@@ -2,7 +2,7 @@
 
 _Este repositorio contiene una serie de desafíos resueltos de la plataforma Frontend Mentor, utilizando diversas tecnologías como HTML, CSS, JavaScript, TailwindCSS y TypeScript. Cada desafío es una oportunidad para mejorar mis habilidades de desarrollo frontend y aplicar nuevas técnicas de diseño y programación._
 
-Usuario [AnderCMD](https://www.frontendmentor.io/profile/@AnderCMD) 
+Usuario [AnderCMD](https://www.frontendmentor.io/profile/AnderCMD)
 
 ## Comenzando 🚀
 
@@ -48,17 +48,17 @@ Para ejecutar estos proyectos en tu máquina, necesitas tener instalados los sig
     cd Desafios-Frontend-Mentor
     ```
 
-3. Instala las dependencias
+3. Instala las dependencias dependiendo del proyecto
     ```
     pnpm install
     ```
 
-4. Ejecuta el servidor de desarrollo
+4. Ejecuta el servidor de desarrollo dependiendo del proyecto
     ```
     pnpm dev
     ```
 
-5. Abre el navegador y accede a `http://localhost:3000` para ver el desafío en funcionamiento.
+5. Abre el navegador y accede a `http://localhost:3000` para ver el desafío en funcionamiento o su derivado dependiendo del proyecto.
 
 ## Despliegue 📦
 
@@ -92,7 +92,6 @@ Este proyecto ha sido realizado por mí. Si tienes alguna sugerencia o mejora, n
 Este proyecto está bajo la Licencia MIT - mira el archivo [LICENSE.md](LICENSE.md) para detalles.
 
 ---
-⌨️ con ❤️ por [AnderCMD](https://github.com/AnderCMD) 😊
 
 Gracias por todas las personas que me han dado consejos y ayuda para poder realizar todos estos desafios y mejorar como programador.
 
